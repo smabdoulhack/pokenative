@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "MerryEtAmis",
+    "slug": "pokenative",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/mery-icon.jpg",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/mery-icon.jpg",
+        "backgroundColor": "#F9968B"
+      },
+      "package": "com.abdoulhack.pokenative"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/mery-icon.jpg",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "424ba63b-baf1-4c35-8519-81fb617290ef"
+      }
+    },
+    "owner": "abdoulhack"
+  }
+}
